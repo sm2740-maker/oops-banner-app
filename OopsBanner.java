@@ -4,7 +4,7 @@ public class OopsBanner {
         System.out.println(" *****   *****  *****   ***** ");
         System.out.println("*     * *     * *    * *     *");
         System.out.println("*     * *     * *    * *      ");
-        System.out.println("*     * *     * *****   ****** ");
+        System.out.println("*     * *     * *****   ***** ");
         System.out.println("*     * *     * *            *");
         System.out.println("*     * *     * *            *");
         System.out.println(" *****   *****  *       ****** ");
