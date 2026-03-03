@@ -1,3 +1,21 @@
+    feature/UC4_StringArrayLoop
+public class OopsBanner {
+
+    public static void main(String[] args) {
+
+        String[] banner = {
+            " *****    *****   *****   ***** ",
+            "*     *  *     * *     * *     *",
+            "*     *  *     * *     * *      ",
+            "*     *  *     * *     * *      ",
+            "*     *  *     * *     * *      ",
+            "*     *  *     * *     * *     *",
+            " *****    *****   *****   ***** "
+        };
+
+        for (String line : banner) {
+            System.out.println(line);
+        }
 public class OOPSBannerApp {
     public static void main(String[] args) {
 
@@ -23,6 +41,7 @@ public class OOPSBannerApp {
         System.out.println("*     * *     * *            *");
         System.out.println("*     * *     * *            *");
         System.out.println(" *****   *****  *       ****** ");
+        main
         main
 
         System.out.println(line1);
