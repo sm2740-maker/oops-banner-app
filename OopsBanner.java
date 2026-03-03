@@ -1,6 +1,7 @@
 public class OOPSBannerApp {
     public static void main(String[] args) {
 
+       feature/UC3_StringJoin
         String line1 = String.join("", 
                 "  *****   ", " *****   ", " *****   ", " *****  ");
         String line2 = String.join("", 
@@ -15,6 +16,14 @@ public class OOPSBannerApp {
                 " *     *  ", "*     *  ", "*     *  ", "*     * ");
         String line7 = String.join("", 
                 "  *****   ", " *****   ", " *****   ", " *****  ");
+        System.out.println(" *****   *****  *****   ***** ");
+        System.out.println("*     * *     * *    * *     *");
+        System.out.println("*     * *     * *    * *      ");
+        System.out.println("*     * *     * *****   ***** ");
+        System.out.println("*     * *     * *            *");
+        System.out.println("*     * *     * *            *");
+        System.out.println(" *****   *****  *       ****** ");
+        main
 
         System.out.println(line1);
         System.out.println(line2);
