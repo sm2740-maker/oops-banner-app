@@ -1,21 +1,21 @@
     feature/UC4_StringArrayLoop
 public class OopsBanner {
-
     public static void main(String[] args) {
 
-        String[] banner = {
-            " *****    *****   *****   ***** ",
-            "*     *  *     * *     * *     *",
-            "*     *  *     * *     * *      ",
-            "*     *  *     * *     * *      ",
-            "*     *  *     * *     * *      ",
-            "*     *  *     * *     * *     *",
-            " *****    *****   *****   ***** "
+        String[] bannerLines = {
+                String.join("", " *****    ", " *****   ", " *****   ", " ***** "),
+                String.join("", "*     *  ", "*     * ", "*     * ", "*     *"),
+                String.join("", "*     *  ", "*     * ", "*     * ", "*      "),
+                String.join("", "*     *  ", "*     * ", "*     * ", "*      "),
+                String.join("", "*     *  ", "*     * ", "*     * ", "*      "),
+                String.join("", "*     *  ", "*     * ", "*     * ", "*     *"),
+                String.join("", " *****    ", " *****   ", " *****   ", " ***** ")
         };
 
-        for (String line : banner) {
+        for (String line : bannerLines) {
             System.out.println(line);
         }
+      feature/UC5_ArrayInit_StringJoin
 public class OOPSBannerApp {
     public static void main(String[] args) {
 
@@ -51,5 +51,6 @@ public class OOPSBannerApp {
         System.out.println(line5);
         System.out.println(line6);
         System.out.println(line7);
+        main
     }
 }
