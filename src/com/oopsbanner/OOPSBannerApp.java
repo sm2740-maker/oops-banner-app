@@ -1,13 +1,65 @@
 package com.oopsbanner;
 
-/**
- * UC1: Print OOPS to console
- * @author Shayon Mazumder
- * @version 1.0
- */
+import java.util.HashMap;
+import java.util.Map;
+
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
-        System.out.println("OOPS");
+        Map<Character, String[]> patternMap = createPatternMap();
+        String word = "OOPS";
+        printBanner(word, patternMap);
+    }
+
+    static Map<Character, String[]> createPatternMap() {
+        Map<Character, String[]> patternMap = new HashMap<>();
+
+        patternMap.put('O', new String[]{
+                " ***** ",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                "*     *",
+                " ***** "
+        });
+
+        patternMap.put('P', new String[]{
+                " ***** ",
+                "*     *",
+                "*     *",
+                " ***** ",
+                "*      ",
+                "*      ",
+                "*      "
+        });
+
+        patternMap.put('S', new String[]{
+                " ***** ",
+                "*     *",
+                "*      ",
+                " ***** ",
+                "      *",
+                "*     *",
+                " ***** "
+        });
+
+        return patternMap;
+    }
+
+    static void printBanner(String word, Map<Character, String[]> patternMap) {
+        for (int row = 0; row < 7; row++) {
+            for (int i = 0; i < word.length(); i++) {
+                char ch = word.charAt(i);
+                String[] pattern = patternMap.get(ch);
+
+                if (pattern != null) {
+                    System.out.print(pattern[row] + "  ");
+                } else {
+                    System.out.print("         ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
