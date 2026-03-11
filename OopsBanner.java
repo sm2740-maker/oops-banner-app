@@ -1,3 +1,4 @@
+ feature/UC7_CharacterPatternClass
     feature/UC4_StringArrayLoop
 public class OopsBanner {
 
@@ -115,3 +116,4 @@ public class OOPSBannerApp {
         main
     }
 }
+main
